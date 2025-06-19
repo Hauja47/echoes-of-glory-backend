@@ -1,0 +1,6 @@
+@EOG.Api_HostAddress = http://localhost:5129
+
+GET {{EOG.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
