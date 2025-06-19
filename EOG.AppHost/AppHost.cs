@@ -1,3 +1,7 @@
+using Projects;
+
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.Build().Run();
+builder.AddProject<EOG_Api>("api");
+
+await builder.Build().RunAsync();
